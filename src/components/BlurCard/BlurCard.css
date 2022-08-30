@@ -1,0 +1,33 @@
+.blurCardGrid {
+  background: #181818;
+  display:grid;
+  grid-template-columns:4fr 9fr;
+  grid-template-rows: 100%;
+  grid-column: auto !important;
+}
+.blurCardImage {
+  width: 120px !important;
+  height: 120px !important;
+  border: 1px solid #a5a5a5;
+}
+.blurTextContent {
+  background: #181818;
+  padding-left: 10px;
+  width: 202.8px;
+  float: right;
+  position: relative;
+  color: white;
+}
+
+.blurTextContentTitle {
+  color: #636363 !important;
+}
+.blurCardGrid>div {
+  background: #181818;
+  display:grid;
+  grid-template-columns:4fr 9fr;
+  grid-template-rows: 100%;
+}
+.blurTextContent>* {
+  margin: 0em;
+}

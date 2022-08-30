@@ -1,0 +1,26 @@
+.gridContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(10px, 3fr) minmax(10px, 9fr);
+  grid-template-rows: 1fr 1fr 12fr;
+  gap: 0px;
+  margin: 0;
+  background-color: #181818 !important;
+  min-width: 800px !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+}
+.blurCardsContentContainer {
+  grid-column: 2 / 3;
+  padding-left:15px;
+  background: #181818;
+  grid-row: 3 / 4;
+}
+.blurCardsGrid {
+  display: grid;
+  gap: 5vh;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  grid-template-rows: auto;
+}

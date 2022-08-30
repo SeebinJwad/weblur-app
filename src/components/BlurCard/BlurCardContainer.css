@@ -1,0 +1,13 @@
+.blurCardsContentContainer {
+  grid-column: 2 / 3;
+  padding-left:15px;
+  background: #181818;
+}
+.blurCardsGrid {
+  display: grid;
+  gap: 5vh;
+  padding: 10px;
+  /* BELOW ONLY FOR MAX SCREEN SIZE, TODO: MEDIA QUERY */
+  grid-template-columns: 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr 1fr 1fr !important;
+}
